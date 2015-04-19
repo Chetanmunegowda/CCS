@@ -1,0 +1,248 @@
+div#maincontianer
+{
+	width: 100%;
+	background-color: #593C1F;
+}
+
+
+div#header 
+{
+	position: relative;
+}
+
+div#header div
+{
+	display: inline-block;
+	position: relative;
+}
+
+div#header img 
+{
+	height: 50px;
+	width: 40%;
+	margin-left: 17%;
+	position: relative;
+}
+
+div#navigation
+{
+	height: 40px;
+	width: 100%;
+	
+	background: rgba(138,64,0,1);
+	background: -moz-linear-gradient(left, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(138,64,0,1)), color-stop(0%, rgba(76,44,16,1)), color-stop(99%, rgba(68,39,14,1)), color-stop(100%, rgba(119,60,9,1)));
+	background: -webkit-linear-gradient(left, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	background: -o-linear-gradient(left, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	background: -ms-linear-gradient(left, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	background: linear-gradient(to right, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a4000', endColorstr='#773c09', GradientType=1 );
+	overflow: hidden;
+}
+
+div#navigation div
+{
+	display: inline;
+	overflow: hidden;
+}
+
+div#navigation div ul
+{
+	
+	overflow: hidden;
+	display: inline;
+}
+
+div#navigation div ul li
+{
+	
+	display: inline;
+	list-style-type: none;
+	position: relative;
+
+}
+
+div#navigation div ul li a
+{
+	display: inline-block;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	padding-left: 2%;
+	padding-right: 2%;
+	text-decoration: none;
+	font-size: 17px;
+	font-family: 'Roboto', sans-serif;
+	color:#FFFFFF;
+}
+
+div#navigation div ul li a:hover
+{
+	color: orange;
+}
+
+
+div#contentarea
+{
+	/*background-color: purple; */
+	position:relative;
+	width: 100%;
+	display: inline-block;
+}
+
+div#contentarea div.contentareaheading
+{
+	display: inline-block;
+	margin-top: 1%;
+	position: relative;
+	height: 40px;
+	
+	background: rgba(138,64,0,1);
+	background: -moz-linear-gradient(left, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(138,64,0,1)), color-stop(0%, rgba(76,44,16,1)), color-stop(99%, rgba(68,39,14,1)), color-stop(100%, rgba(119,60,9,1)));
+	background: -webkit-linear-gradient(left, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	background: -o-linear-gradient(left, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	background: -ms-linear-gradient(left, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	background: linear-gradient(to right, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a4000', endColorstr='#773c09', GradientType=1 );
+	width: 100%;
+
+}
+
+div#contentarea div.contentareaheading div
+{
+	display: inline-block;
+	margin-top: 0.5%;
+	position: relative;
+	width: 50%;
+}
+
+div#contentarea div.contentareaheading p
+{
+	display: inline;
+	font-size: 17px;
+	overflow: hidden;
+	margin-left: 10%;
+	font-family: 'Roboto', sans-serif;
+	color:#FFFFFF;
+}
+
+
+div#contentarea div#contentareatext
+{
+	height: 1050px;
+	width: 100%;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+
+}
+
+
+div#contentareatext div#tablecontent
+{
+	height: 1050px;
+	width: 80%;
+	margin-left: 13%;
+	margin-top: 3%;
+	/*background-color: blue;*/
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+}
+
+div#tablecontent table 
+{
+	height: 1050px;
+	width: 100%;
+	display: inline-block;
+	position: relative;
+}
+
+
+div#tablecontent table tr
+{
+	width: 100%;
+	height: 200px;
+	display: inline-block;
+	position: relative;
+	font-size: 17px;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	color: #E1DCDE;
+
+	border-radius: 5%;
+	background: rgba(176,97,48,1);
+	background: -moz-linear-gradient(left, rgba(176,97,48,1) 0%, rgba(105,70,48,0.81) 50%, rgba(91,61,42,0.81) 51%, rgba(155,93,54,0.62) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(176,97,48,1)), color-stop(50%, rgba(105,70,48,0.81)), color-stop(51%, rgba(91,61,42,0.81)), color-stop(100%, rgba(155,93,54,0.62)));
+	background: -webkit-linear-gradient(left, rgba(176,97,48,1) 0%, rgba(105,70,48,0.81) 50%, rgba(91,61,42,0.81) 51%, rgba(155,93,54,0.62) 100%);
+	background: -o-linear-gradient(left, rgba(176,97,48,1) 0%, rgba(105,70,48,0.81) 50%, rgba(91,61,42,0.81) 51%, rgba(155,93,54,0.62) 100%);
+	background: -ms-linear-gradient(left, rgba(176,97,48,1) 0%, rgba(105,70,48,0.81) 50%, rgba(91,61,42,0.81) 51%, rgba(155,93,54,0.62) 100%);
+	background: linear-gradient(to right, rgba(176,97,48,1) 0%, rgba(105,70,48,0.81) 50%, rgba(91,61,42,0.81) 51%, rgba(155,93,54,0.62) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b06130', endColorstr='#9b5d36', GradientType=1 );
+
+	-webkit-box-shadow: inset 6px 6px 5px #666;
+	-moz-box-shadow: inset 6px 6px 5px #666;
+	box-shadow: inset 6px 6px 5px #666;
+}
+
+div#tablecontent table tr td.text
+{
+	width: 60%;
+	position: relative;
+	display: inline-block;
+	height: 200px;
+	margin-top: 1%;
+	overflow: hidden;
+}
+
+div#tablecontent table tr td.text p:first-child
+{
+	display: inline;
+	font-weight: bold;
+}
+
+
+div#tablecontent table tr td.image
+{
+	width: 30%;
+	position: relative;
+	display: inline-block;
+	height: 200px;
+	float: right;
+	margin-top: 3%;
+	overflow: hidden;
+}
+
+
+div#footer
+{
+	height: 30px;
+	background: rgba(138,64,0,1);
+	background: -moz-linear-gradient(left, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(138,64,0,1)), color-stop(0%, rgba(76,44,16,1)), color-stop(99%, rgba(68,39,14,1)), color-stop(100%, rgba(119,60,9,1)));
+	background: -webkit-linear-gradient(left, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	background: -o-linear-gradient(left, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	background: -ms-linear-gradient(left, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	background: linear-gradient(to right, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a4000', endColorstr='#773c09', GradientType=1 );
+	overflow: hidden;
+	display: inline-block;
+	width: 100%;
+	margin-top: 1%;
+}
+
+div#footer div
+{
+	display: inline-block;
+	margin-left: 34%;
+	position: relative;
+	margin-top: 0.5%;
+}
+
+
+div#footer div p 
+{
+	display: inline;
+	color: #FFFFFF;
+	font-family: 'Miltonian Tattoo', cursive;
+}

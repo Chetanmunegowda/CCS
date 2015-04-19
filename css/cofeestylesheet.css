@@ -1,0 +1,262 @@
+div#maincontainer
+{
+	width: 100%;
+	/* background-color: #A97C28; */
+	background-color: #593C1F;
+}
+
+div#mainheader
+{
+	height: 100px;
+	overflow: hidden;
+
+}
+
+div#mainheader div#heading
+{
+	display: inline;
+	margin-left: 35%;
+	float: left;
+	position: relative;
+	font-family: 'Miltonian Tattoo', cursive;
+	color: #FFFFFF;
+	height: 100px;
+
+}
+
+div#mainheader div p
+{
+	display: inline;
+	font-size: 30px;
+}
+
+div#mainheader div img
+{
+	height: 50px;
+	width: 100px;	
+}
+
+div#mainheader div#icon
+{
+	float: right;
+	margin-right: 5%;
+	margin-top: 4%;
+}
+
+div#mainheader div#icon ul
+{
+	list-style-type: none;
+}
+
+div#mainheader div#icon ul li
+{
+	display: inline;
+}
+
+
+div#mainheader div#icon ul li a
+{
+	text-decoration: none;
+
+}
+div#mainheader div#icon ul li a img
+{
+	border-radius: 100%;
+	height: 25px;
+	width: 25px;
+	position: relative;
+}
+
+div#header
+{
+	height: 50px;
+	background: rgba(138,64,0,1);
+	background: -moz-linear-gradient(left, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(138,64,0,1)), color-stop(0%, rgba(76,44,16,1)), color-stop(99%, rgba(68,39,14,1)), color-stop(100%, rgba(119,60,9,1)));
+	background: -webkit-linear-gradient(left, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	background: -o-linear-gradient(left, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	background: -ms-linear-gradient(left, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	background: linear-gradient(to right, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a4000', endColorstr='#773c09', GradientType=1 );
+	overflow: hidden;
+	clear: both;
+}
+
+
+div#navigation
+{
+	position: relative;	
+}
+
+div#navigation ul
+{
+	margin: 0 auto;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+	left: 28%;
+	position: relative;
+	overflow: hidden;
+}
+
+div#navigation ul li
+{
+	font-size: 20px;
+	display: inline-block;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-top: 1.5%;
+	list-style-type: none;
+	position: relative;
+	padding-bottom: 4px;
+
+}
+
+div#navigation ul li a
+{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+div#navigation ul li a:hover
+{
+	color: orange;
+}
+
+
+div#contentcontainer
+{
+	
+	height: 500px;
+	background: rgba(50,36,17,1);
+	background: -moz-linear-gradient(left, rgba(50,36,17,1) 0%, rgba(50,36,17,1) 1%, rgba(91,58,11,1) 25%, rgba(46,33,15,1) 75%, rgba(80,54,16,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(50,36,17,1)), color-stop(1%, rgba(50,36,17,1)), color-stop(25%, rgba(91,58,11,1)), color-stop(75%, rgba(46,33,15,1)), color-stop(100%, rgba(80,54,16,1)));
+	background: -webkit-linear-gradient(left, rgba(50,36,17,1) 0%, rgba(50,36,17,1) 1%, rgba(91,58,11,1) 25%, rgba(46,33,15,1) 75%, rgba(80,54,16,1) 100%);
+	background: -o-linear-gradient(left, rgba(50,36,17,1) 0%, rgba(50,36,17,1) 1%, rgba(91,58,11,1) 25%, rgba(46,33,15,1) 75%, rgba(80,54,16,1) 100%);
+	background: -ms-linear-gradient(left, rgba(50,36,17,1) 0%, rgba(50,36,17,1) 1%, rgba(91,58,11,1) 25%, rgba(46,33,15,1) 75%, rgba(80,54,16,1) 100%);
+	background: linear-gradient(to right, rgba(50,36,17,1) 0%, rgba(50,36,17,1) 1%, rgba(91,58,11,1) 25%, rgba(46,33,15,1) 75%, rgba(80,54,16,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#322411', endColorstr='#503610', GradientType=1 );
+
+}
+
+div#contentcontainer div#content
+{
+	margin-left: 10%;
+	display: inline-block;
+	height: 300px;
+	margin-top: 4%;
+	width: 80%;
+
+	background: rgba(201,130,64,1);
+	background: -moz-linear-gradient(left, rgba(201,130,64,1) 0%, rgba(121,88,57,0.75) 50%, rgba(108,78,51,0.75) 51%, rgba(184,123,66,0.5) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(201,130,64,1)), color-stop(50%, rgba(121,88,57,0.75)), color-stop(51%, rgba(108,78,51,0.75)), color-stop(100%, rgba(184,123,66,0.5)));
+	background: -webkit-linear-gradient(left, rgba(201,130,64,1) 0%, rgba(121,88,57,0.75) 50%, rgba(108,78,51,0.75) 51%, rgba(184,123,66,0.5) 100%);
+	background: -o-linear-gradient(left, rgba(201,130,64,1) 0%, rgba(121,88,57,0.75) 50%, rgba(108,78,51,0.75) 51%, rgba(184,123,66,0.5) 100%);
+	background: -ms-linear-gradient(left, rgba(201,130,64,1) 0%, rgba(121,88,57,0.75) 50%, rgba(108,78,51,0.75) 51%, rgba(184,123,66,0.5) 100%);
+	background: linear-gradient(to right, rgba(201,130,64,1) 0%, rgba(121,88,57,0.75) 50%, rgba(108,78,51,0.75) 51%, rgba(184,123,66,0.5) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c98240', endColorstr='#b87b42', GradientType=1 );
+
+	border-radius: 6%;
+
+	transition-property: opacity; 
+	transition-duration: .05s;
+	transition-timing-function: ease-out;
+	transition-delay: 2s;
+
+	-webkit-box-shadow: inset 6px 6px 5px #666;
+	-moz-box-shadow: inset 6px 6px 5px #666;
+	box-shadow: inset 6px 6px 5px #666;
+
+	transform: skewX(-5deg);
+}
+
+
+
+div#content div
+{
+	width: 40%;
+	height: 250px;
+	display: inline-block;
+	position: relative;
+	color: #FFFFFF;
+	float: left;
+	margin-left: 3%;
+	margin-top: 2%;
+	overflow:hidden;
+}
+
+div#contentcontainer div#content p
+{
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;	
+	font-size: 16px;
+	color: #E1DCDE;
+}
+
+div#contentcontainer div#content p:first-child
+{
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Miltonian Tattoo', cursive;
+}
+
+
+
+div#content div div#image
+{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	height: 250px;
+	margin-left: 10%;
+	margin-top: 0%;
+	display: inline-block;
+
+	
+}
+
+div#content div div#image img
+{
+	width: 90%;
+	height: 280px;
+}
+
+
+
+div#footer
+{
+	height: 30px;
+	
+	background: rgba(138,64,0,1);
+	background: -moz-linear-gradient(left, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(138,64,0,1)), color-stop(0%, rgba(76,44,16,1)), color-stop(99%, rgba(68,39,14,1)), color-stop(100%, rgba(119,60,9,1)));
+	background: -webkit-linear-gradient(left, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	background: -o-linear-gradient(left, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	background: -ms-linear-gradient(left, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	background: linear-gradient(to right, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a4000', endColorstr='#773c09', GradientType=1 );
+	overflow: hidden;
+	display: inline-block;
+	width: 100%;
+	
+}
+
+div#footer div
+{
+	display: inline-block;
+	margin-left: 34%;
+	position: relative;
+	margin-top: 0.5%;
+}
+
+
+div#footer div p 
+{
+	display: inline;
+	color: #FFFFFF;
+	font-family: 'Miltonian Tattoo', cursive;
+	font-style: normal;
+	font-style: 16px;
+}
+

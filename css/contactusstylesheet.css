@@ -1,0 +1,347 @@
+div#maincontianer
+{
+	width: 100%;
+	background-color: #593C1F;
+}
+
+
+div#header 
+{
+	position: relative;
+}
+
+div#header div#image
+{
+	display: inline-block;
+	position: relative;
+}
+
+div#header div#image img 
+{
+	height: 50px;
+	width: 40%;
+	margin-left: 17%;
+}
+
+div#header div#socialmedialinks
+{
+	display: inline-block;
+	float: right;
+	margin-right: 4%;
+}
+
+div#header div#socialmedialinks ul li 
+{
+	list-style-type: none;
+	display: inline;
+}
+
+div#header div#socialmedialinks ul li a
+{
+	text-decoration: none;	
+}
+
+div#header div#socialmedialinks ul li a img
+{
+	border-radius: 100%;
+	height: 20px;
+	width: 20px;
+}
+
+
+div#navigation
+{
+	height: 40px;
+	width: 100%;
+	
+	background: rgba(138,64,0,1);
+	background: -moz-linear-gradient(left, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(138,64,0,1)), color-stop(0%, rgba(76,44,16,1)), color-stop(99%, rgba(68,39,14,1)), color-stop(100%, rgba(119,60,9,1)));
+	background: -webkit-linear-gradient(left, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	background: -o-linear-gradient(left, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	background: -ms-linear-gradient(left, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	background: linear-gradient(to right, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a4000', endColorstr='#773c09', GradientType=1 );
+	overflow: hidden;
+}
+
+div#navigation div
+{
+	display: inline;
+	overflow: hidden;
+}
+
+div#navigation div ul
+{
+	
+	overflow: hidden;
+	display: inline;
+}
+
+div#navigation div ul li
+{
+	
+	display: inline;
+	list-style-type: none;
+	position: relative;
+
+}
+
+div#navigation div ul li a
+{
+	display: inline-block;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	padding-left: 2%;
+	padding-right: 2%;
+	text-decoration: none;
+	font-size: 17px;
+	font-family: 'Roboto', sans-serif;
+	color:#FFFFFF;
+}
+
+div#navigation div ul li a:hover
+{
+	color: orange;
+}
+
+
+div#contactcontent
+{
+	height: 600px;
+	/*background-color: purple; */
+	position:relative;
+	width: 100%;
+	display: inline-block;
+
+
+}
+
+div#contactcontent div.contactusheading
+{
+	display: inline-block;
+	margin-top: 1%;
+	position: relative;
+	height: 40px;
+	
+	background: rgba(138,64,0,1);
+	background: -moz-linear-gradient(left, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(138,64,0,1)), color-stop(0%, rgba(76,44,16,1)), color-stop(99%, rgba(68,39,14,1)), color-stop(100%, rgba(119,60,9,1)));
+	background: -webkit-linear-gradient(left, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	background: -o-linear-gradient(left, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	background: -ms-linear-gradient(left, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	background: linear-gradient(to right, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a4000', endColorstr='#773c09', GradientType=1 );
+	width: 100%;
+
+}
+
+div#contactcontent div.contactusheading div
+{
+	display: inline-block;
+	margin-top: 0.5%;
+	position: relative;
+	width: 50%;
+}
+
+
+div#contactcontent div.contactusheading p
+{
+	display: inline;
+	font-size: 17px;
+	overflow: hidden;
+	margin-left: 10%;
+	font-family: 'Roboto', sans-serif;
+	color:#FFFFFF;
+}
+
+
+div#contactcontent div.contentsummary
+{
+	height: 560px;
+	width: 100%;
+	position: relative;
+	margin-top: 1%;
+	
+	background: rgba(117,57,0,1);
+	background: -moz-linear-gradient(left, rgba(117,57,0,1) 0%, rgba(69,40,13,0.65) 50%, rgba(60,35,11,0.64) 51%, rgba(107,54,6,0.3) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(117,57,0,1)), color-stop(50%, rgba(69,40,13,0.65)), color-stop(51%, rgba(60,35,11,0.64)), color-stop(100%, rgba(107,54,6,0.3)));
+	background: -webkit-linear-gradient(left, rgba(117,57,0,1) 0%, rgba(69,40,13,0.65) 50%, rgba(60,35,11,0.64) 51%, rgba(107,54,6,0.3) 100%);
+	background: -o-linear-gradient(left, rgba(117,57,0,1) 0%, rgba(69,40,13,0.65) 50%, rgba(60,35,11,0.64) 51%, rgba(107,54,6,0.3) 100%);
+	background: -ms-linear-gradient(left, rgba(117,57,0,1) 0%, rgba(69,40,13,0.65) 50%, rgba(60,35,11,0.64) 51%, rgba(107,54,6,0.3) 100%);
+	background: linear-gradient(to right, rgba(117,57,0,1) 0%, rgba(69,40,13,0.65) 50%, rgba(60,35,11,0.64) 51%, rgba(107,54,6,0.3) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#753900', endColorstr='#6b3606', GradientType=1 );
+}
+
+div#contactusmap
+{
+	height: 560px;
+	width:40%;
+	position: relative;
+	display: inline-block;
+	/*background-color: orange;*/
+	margin-left: 5%;
+}
+
+div#contactustext
+{
+	display: inline-block;
+	width: 50%;
+	height: 560px;
+	float: right;
+	overflow: hidden;
+	margin-left: 2%;
+	position: relative;
+
+	
+}
+
+
+div#contactustext p
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	color: #E1DCDE;
+}
+
+div#contactustext p:first-child
+{
+	display: inline;
+}
+
+div#contactustext div#form
+{
+	display: inline-block;
+	width: 70%;
+	height: 300px;
+	/*background-color: blue;*/
+	position:relative;
+	margin-left: 10%;
+	margin-top: 6%;
+	border-radius: 5%;
+	overflow: hidden;
+
+	background: rgba(171,107,23,1);
+	background: -moz-linear-gradient(left, rgba(171,107,23,1) 0%, rgba(99,71,34,0.68) 50%, rgba(84,60,29,0.67) 51%, rgba(151,100,33,0.35) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(171,107,23,1)), color-stop(50%, rgba(99,71,34,0.68)), color-stop(51%, rgba(84,60,29,0.67)), color-stop(100%, rgba(151,100,33,0.35)));
+	background: -webkit-linear-gradient(left, rgba(171,107,23,1) 0%, rgba(99,71,34,0.68) 50%, rgba(84,60,29,0.67) 51%, rgba(151,100,33,0.35) 100%);
+	background: -o-linear-gradient(left, rgba(171,107,23,1) 0%, rgba(99,71,34,0.68) 50%, rgba(84,60,29,0.67) 51%, rgba(151,100,33,0.35) 100%);
+	background: -ms-linear-gradient(left, rgba(171,107,23,1) 0%, rgba(99,71,34,0.68) 50%, rgba(84,60,29,0.67) 51%, rgba(151,100,33,0.35) 100%);
+	background: linear-gradient(to right, rgba(171,107,23,1) 0%, rgba(99,71,34,0.68) 50%, rgba(84,60,29,0.67) 51%, rgba(151,100,33,0.35) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ab6b17', endColorstr='#976421', GradientType=1 );
+
+	transform: skewX(-5deg);
+}
+
+div#contactustext div#form p 
+{
+	position: relative;
+	margin-left: 3%;
+}
+
+
+div#contactustext div#form fieldset
+{
+	border: 1px solid #C3C0C1;
+	border-radius: 5%;
+	overflow: hidden;
+	height: 280px;
+}
+
+div#contactustext div#form fieldset legend
+{
+	font-family: 'Miltonian Tattoo', cursive;
+	font-size: 16px;
+	font-weight:bold;
+	font-style: normal;
+	color: #C3C0C1;
+}
+
+div#contactustext div#form p label
+{
+	position: relative;
+	width: 30%;
+	display: inline-block;
+	color: #C3C0C1;
+}
+
+div#contactustext div#form p input,textarea
+{
+	position: relative;
+	width: 50%;
+}
+
+
+div#contactustext div#form fieldset input#submitBtn
+{
+	margin-left: 30%;
+	position: relative;
+	width: 30%;
+}
+
+
+div#coffeshopinfo
+{
+	background-color: #593C1F;;
+	width: 100%;
+	height: 100%;
+	position:relative;
+}
+
+div#coffeshopinfo img
+{
+	position: relative;
+	width: 20px;
+	height:5px;
+}
+
+div#coffeshopinfo p
+{
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+	font-style: 10px;
+	font-size:12px;
+	color: #FFFFFF;
+	width: 100%;
+}
+
+div#coffeshopinfo p:first-child
+{
+	font-weight: bold;
+	text-align: center;
+}
+
+div#footer
+{
+	height: 30px;
+	background: rgba(138,64,0,1);
+	background: -moz-linear-gradient(left, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(138,64,0,1)), color-stop(0%, rgba(76,44,16,1)), color-stop(99%, rgba(68,39,14,1)), color-stop(100%, rgba(119,60,9,1)));
+	background: -webkit-linear-gradient(left, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	background: -o-linear-gradient(left, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	background: -ms-linear-gradient(left, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	background: linear-gradient(to right, rgba(138,64,0,1) 0%, rgba(76,44,16,1) 0%, rgba(68,39,14,1) 99%, rgba(119,60,9,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a4000', endColorstr='#773c09', GradientType=1 );
+	overflow: hidden;
+	display: inline-block;
+	width: 100%;
+	margin-top: 1%;
+}
+
+div#footer div
+{
+	display: inline-block;
+	margin-left: 34%;
+	position: relative;
+	margin-top: 0.5%;
+}
+
+
+div#footer div p 
+{
+	display: inline;
+	color: #FFFFFF;
+	font-family: 'Miltonian Tattoo', cursive;
+}
+
